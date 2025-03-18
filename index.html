@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLACKPINK - Official Fanpage</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="BLACKPINK Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Trang chủ</a></li>
+                <li><a href="#members">Thành viên</a></li>
+                <li><a href="#music">Âm nhạc</a></li>
+                <li><a href="#gallery">Thư viện</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-slider">
+            <div class="slide">
+                <img src="images/bp-banner1.jpg" alt="BLACKPINK Concert">
+                <div class="slide-content">
+                    <h1>BLACKPINK IN YOUR AREA</h1>
+                    <p>Nhóm nhạc nữ hàng đầu K-pop</p>
+                    <a href="#members" class="cta-button">Khám phá ngay</a>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/bp-banner2.jpg" alt="BLACKPINK Members">
+                <div class="slide-content">
+                    <h1>BORN PINK WORLD TOUR</h1>
+                    <p>Tour diễn thành công nhất của một nhóm nhạc K-pop nữ</p>
+                    <a href="#music" class="cta-button">Xem thêm</a>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/bp-banner3.jpg" alt="BLACKPINK Awards">
+                <div class="slide-content">
+                    <h1>RECORD BREAKERS</h1>
+                    <p>Những kỷ lục không thể phá vỡ</p>
+                    <a href="#gallery" class="cta-button">Thư viện ảnh</a>
+                </div>
+            </div>
+        </div>
+        <div class="slider-controls">
+            <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+            <div class="slider-dots"></div>
+            <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- Members Section -->
+    <section id="members" class="members">
+        <h2>Thành viên</h2>
+        <div class="members-grid">
+            <div class="member-card" data-member="jisoo">
+                <img src="images/Jisoo.jpg" alt="Jisoo">
+                <h3>Kim Ji-soo</h3>
+                <p class="role">Lead Vocal, Visual</p>
+                <button class="info-btn">Xem thêm</button>
+            </div>
+
+            <div class="member-card" data-member="jennie">
+                <img src="images/Jennie.jpg" alt="Jennie">
+                <h3>Jennie Kim</h3>
+                <p class="role">Main Rapper, Lead Vocal</p>
+                <button class="info-btn">Xem thêm</button>
+            </div>
+
+            <div class="member-card" data-member="rose">
+                <img src="images/Rosé.jpg" alt="Rosé">
+                <h3>Roseanne Park</h3>
+                <p class="role">Main Vocal, Lead Dancer</p>
+                <button class="info-btn">Xem thêm</button>
+            </div>
+
+            <div class="member-card" data-member="lisa">
+                <img src="images/Lisa.jpg" alt="Lisa">
+                <h3>Lalisa Manoban</h3>
+                <p class="role">Main Dancer, Lead Rapper</p>
+                <button class="info-btn">Xem thêm</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="memberModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalInfo"></div>
+        </div>
+    </div>
+
+    <!-- Music Section -->
+    <section id="music" class="music">
+        <h2>Âm nhạc</h2>
+        <div class="music-grid">
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <h2>BLACKPINK Photo Album</h2>
+        <div class="book-container">
+            <div class="book">
+                <div class="book-cover">
+                    <h3>BLACKPINK</h3>
+                    <p>THE ALBUM</p>
+                    <div class="book-spine"></div>
+                </div>
+                <div class="book-pages">
+                    <!-- Các trang sẽ được thêm bằng JavaScript -->
+                </div>
+            </div>
+            <div class="controls">
+                <button class="prev-page"><i class="fas fa-chevron-left"></i></button>
+                <button class="next-page"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+        </div>
+        <p>&copy; 2024 BLACKPINK Fan Page. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html> 
